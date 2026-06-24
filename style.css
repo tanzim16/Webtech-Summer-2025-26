@@ -1,0 +1,87 @@
+body {
+    font-family: 'Cambria', 'Times New Roman', serif;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    border: 1px solid #6f828a;
+}
+
+th, td {
+    padding: 6px 10px;
+    border: 1px solid #6f828a;
+    text-align: left;
+}
+
+th {
+    background-color: #566e79;
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e4edf1;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d0e1e9;
+}
+
+.contact-container {
+    background-color: #a1c9a0;
+    width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.contact-container h3 {
+    text-align: center;
+    color: #2a4d28;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.form-group label {
+    width: 100px;
+    color: #3d603b;
+    font-size: 16px;
+}
+
+.form-group input, 
+.form-group textarea {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+    outline: 2px solid #3d603b;
+}
+
+.form-group.textarea-group {
+    align-items: flex-start;
+}
+
+.form-group.textarea-group label {
+    margin-top: 10px;
+}
+
+.form-group textarea {
+    height: 80px;
+    resize: vertical;
+}
