@@ -1,0 +1,32 @@
+body{
+font-family:Arial;
+background:#cfe8ff;
+}
+.box{
+width:80%;
+margin:20px auto;
+background:white;
+padding:20px;
+border-radius:8px;
+}
+input,select{
+width:100%;
+padding:6px;
+}
+button{
+background:#2b6cb0;
+color:white;
+padding:8px 20px;
+border:none;
+}
+table{
+width:100%;
+border-collapse:collapse;
+}
+th{
+background:#2b6cb0;
+color:white;
+}
+th,td{
+padding:6px;
+}

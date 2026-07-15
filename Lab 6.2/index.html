@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Student Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="box">
+<h2>Student Registration</h2>
+
+<label>First Name</label><input id="fname"><br><br>
+<label>Last Name</label><input id="lname"><br><br>
+<label>ID</label><input id="sid"><br><br>
+<label>Email</label><input id="email"><br><br>
+<label>Credit</label><input id="credit" type="number"><br><br>
+<label>Department</label>
+<select id="dept"><option>CSE</option><option>EEE</option><option>BBA</option></select><br><br>
+
+<button onclick="submitData()">Submit</button>
+</div>
+
+<div class="box">
+<h2>Registered Students</h2>
+<table border="1">
+<thead><tr><th>First</th><th>Last</th><th>ID</th><th>Email</th><th>Credit</th><th>Dept</th></tr></thead>
+<tbody id="list"></tbody>
+</table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
